@@ -22,8 +22,9 @@ The current file is solid as a token-first reference but is monolithic, has know
 ## 3. Repo
 
 - **Name:** `merlx-design-system`
-- **Location:** `~/github/merlx-design-system`, public on GitHub under Kristian's account
-- **License:** MIT
+- **Location:** `~/github/merlx-design-system`, private on GitHub under Kristian's account
+- **License:** MIT (still applied — license file is for if/when the repo is later flipped public)
+- **Access for `claude.ai/design`:** Private repos may require granting Claude access via GitHub OAuth or a deploy-key/PAT mechanism. Verify access path before relying on it; fallback is to flip the repo public at submission time or attach a zipped snapshot.
 - **Versioning:** SemVer. Major = breaking token changes. Minor = new tokens / chunks. Patch = clarifications, examples. Tagged releases so `claude.ai/design` can pin a version.
 - **Distribution targets:**
   - `claude.ai/design` consumes: GitHub URL + (Stage 3) `MERLx.fig` + asset SVGs + one-line blurb
@@ -231,7 +232,7 @@ Each of these may become a future minor release:
 - Dark-mode token mappings drafted in `patterns/dark-mode.md`
 - Iconography rules locked in `foundations/iconography.md`
 - `README.md` indexes all chunks with one-line descriptions
-- Repo is public on GitHub
+- Repo is private on GitHub (with verified access path for `claude.ai/design`)
 - `claude.ai/design` accepts the repo URL and produces UI that matches MERLx visual language in a smoke test (one prompt, one rendered output, manual visual check)
 
 ## 13. Next step
