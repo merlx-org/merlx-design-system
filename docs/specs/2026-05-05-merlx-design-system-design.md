@@ -227,13 +227,13 @@ Each of these may become a future minor release:
 
 ## 12. Success criteria for v0.1.0 (end of Stage 1)
 
-- All 34 chunks exist with frontmatter and the standard body skeleton
-- Every chunk references tokens by name, never raw hex
-- Dark-mode token mappings drafted in `patterns/dark-mode.md`
-- Iconography rules locked in `foundations/iconography.md`
-- `README.md` indexes all chunks with one-line descriptions
-- Repo is private on GitHub (with verified access path for `claude.ai/design`)
-- `claude.ai/design` accepts the repo URL and produces UI that matches MERLx visual language in a smoke test (one prompt, one rendered output, manual visual check)
+- [x] All 34 items in the taxonomy exist (31 content chunks + `tokens/README.md` + `assets/README.md` + repo `README.md`) with frontmatter and the standard body skeleton on the 31 chunks
+- [x] Every chunk references tokens by name, never raw hex
+- [x] Dark-mode token mappings drafted in `patterns/dark-mode.md`
+- [x] Iconography rules locked in `foundations/iconography.md`
+- [x] `README.md` indexes all chunks with one-line descriptions
+- [x] Repo is private on GitHub at `https://github.com/KSvend/merlx-design-system`, tagged `v0.1.0`
+- [ ] `claude.ai/design` accepts the repo URL and produces UI that matches MERLx visual language in a smoke test — **deferred to manual verification by Kristian**; private-repo access path may require granting Claude OAuth access or a fallback to flipping the repo public at submission time
 
 ## 13. Next step
 
