@@ -1,0 +1,36 @@
+foundations:
+  - identity
+  - color
+  - typography
+  - spacing
+  - radius
+  - motion
+  - elevation
+  - iconography
+components:
+  - buttons
+  - inputs
+  - cards
+  - badges
+  - tables
+  - modals
+  - empty-states
+  - navigation
+  - tooltips
+  - forms
+  - notifications
+data-viz:
+  - charts
+  - maps
+  - dense-tables
+  - sparklines-and-stats
+patterns:
+  - layouts
+  - loading-and-skeletons
+  - empty-error-success
+  - dark-mode
+meta:
+  - accessibility
+  - responsive
+  - ai-assistant-instructions
+  - voice-and-content
