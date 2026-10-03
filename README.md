@@ -53,6 +53,7 @@ This repo holds 34 topic-sized Markdown chunks plus token exports and brand asse
 - [Loading and Skeletons](patterns/loading-and-skeletons.md)
 - [Empty / Error / Success](patterns/empty-error-success.md)
 - [Dark Mode](patterns/dark-mode.md)
+- [Editorial layer](patterns/editorial-layer.md) — marketing-page type scale, surfaces and motion
 
 ### Meta
 - [Accessibility](meta/accessibility.md)
